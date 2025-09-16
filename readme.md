@@ -2,7 +2,7 @@
 This project is an automated tool that generates personalized cold emails by scraping job descriptions from the web and matching them with a portfolio of relevant projects stored in a vector database. It leverages a LangChain pipeline to connect different components, including a Large Language Model (LLM) and a ChromaDB vector store.
 
 ## ✨ Features
-Intelligent Web Scraping: Automatically extracts key information (role, experience, skills, description) from job postings on a given URL using the WebBaseLoader function from langchain_community.
+**Intelligent Web Scraping**: Automatically extracts key information (role, experience, skills, description) from job postings on a given URL using the WebBaseLoader function from langchain_community.
 
 **Vector-Based Portfolio Matching**: Uses a vector database (ChromaDB) to find the most relevant projects from your portfolio (my_portfolio.csv) based on the skills required in the job description.
 
